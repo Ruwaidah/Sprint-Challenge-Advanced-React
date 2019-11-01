@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background: lightgray; */
 }
 
 .App-logo {
@@ -30,4 +31,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 90%;
+
+}
+
+.modechange {
+  background: rebeccapurple;
+  width: 50px;
+  height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.button {
+  width: 25px;
+  background: chocolate;
+  height: 20px;
+  border-radius: 20px;
+  margin: 2px;
+
+}
+
+.movebtn {
+  justify-content: flex-end;
+
+}
+
+body .ruwaidha {
+  background: gray;
+
+}
+
+
+.allplayers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.player {
+  width:20%;
+  background: cornflowerblue;
+  padding: 5px;
+  margin-bottom: 20px;
 }
